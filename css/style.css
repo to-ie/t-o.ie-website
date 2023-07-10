@@ -201,11 +201,7 @@ td{
     word-break:normal;
 }
 
-@media screen and (max-width: 767px) {
-    .tg {width: auto !important;}
-    .tg col {width: auto !important;}
-    .tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}
-}
+
 
 .card{
     background-color: #FFF;
@@ -239,4 +235,12 @@ td{
 .titlecontact{
     margin-top: -100px;
 
+}
+
+
+@media screen and (max-width: 767px) {
+    .tg {width: auto !important;}
+    .tg col {width: auto !important;}
+    .tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}
+    .nav{ display:none }
 }
